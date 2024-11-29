@@ -9,7 +9,7 @@ const steps = [
   },
   {
     title: "Data Collection",
-    content: "Click the collect button to get raw data. The more you have, the more you can train models, deploy dashboards and generate profit!",
+    content: "Click the collect button to get raw data. The more raw data you have, the more models you can train, deploy dashboards and generate profit!",
   },
   {
     title: "Data Cleaning",
@@ -17,7 +17,7 @@ const steps = [
   },
   {
     title: "Model Training",
-    content: "To win a game, you have to multiply your starting capital by 3. But here's the thing, in data there are not 50 ways to make money.. To win a game (which I limited to 30 minutes, for your health), you will have to think like a real data eng. 💡 Invest intelligently.📈 Optimize your pipelines to get a quick ROI. 🎯 Strategy and (a lot of) clicks. It's a bit addictive ... but there's a surprise at the end.",
+    content: "To win a game, you have to multiply your starting capital by 3. But here's the thing, there aren't a whole lot of ways to make money in data... To win a game (which I limited to 30 minutes, for your health's sake), you will have to think like a real data eng. 💡 Invest intelligently.📈 Optimize your pipelines to get a quick ROI. 🎯 Strategy and (a lot of) clicks. It's a bit addictive ... but there's a surprise at the end.",
   },
 ];
 

@@ -261,7 +261,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   };
 
   const attendDailyMeeting = () => {
-    window.open('http://www.ada-study.com/?utm_source=linkedin&utm_medium=social&utm_campaign=profile_game&utm_content=visit_website/', '_blank');
+    window.open('http://www.ada-study.com/?utm_source=data_stack_game&utm_medium=website&utm_campaign=profile_game&utm_content=visit_website/', '_blank');
     setResources(prev => ({
       ...prev,
       revenue: prev.revenue + 500,

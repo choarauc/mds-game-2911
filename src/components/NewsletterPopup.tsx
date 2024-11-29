@@ -41,8 +41,7 @@ export default function NewsletterPopup({ onClose, onSubscribe }: NewsletterPopu
 
           <div className="space-y-6">
             <p className="text-gray-300">
-              At Ada, we don't value them but we offer you to subscribe to our newsletter in exchange for a small bonus!
-              No spam, just news from time to time.
+              If you’d like to hear about Ada, subscribe to our newsletter! We promise, we won’t monetise your email but we'll give you a small bonus!
             </p>
 
             <div className="flex gap-4">

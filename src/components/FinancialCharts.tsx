@@ -70,8 +70,8 @@ export default function FinancialCharts() {
                 <div className="h-48">
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={[
-                      { name: 'Revenus', value: dashboardRevenue + bitcoinValue + dataRevenue },
-                      { name: 'Charges', value: governanceCosts + rawStorageCost + cleanStorageCost }
+                      { name: 'Revenues', value: dashboardRevenue + bitcoinValue + dataRevenue },
+                      { name: 'Expenses', value: governanceCosts + rawStorageCost + cleanStorageCost }
                     ]}>
                       <XAxis dataKey="name" stroke="#9CA3AF" />
                       <YAxis stroke="#9CA3AF" />
@@ -119,7 +119,7 @@ export default function FinancialCharts() {
                 <div>
                   <h4 className="text-sm font-semibold text-gray-400 flex items-center gap-2 mb-2">
                     <PieChartIcon size={16} className="text-red-400" />
-                    Cost posts
+                    Expenses breakdown
                   </h4>
                   <div className="h-32">
                     <ResponsiveContainer width="100%" height="100%">
